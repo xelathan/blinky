@@ -1,0 +1,55 @@
+cmake:
+  application:
+    configuration-dir: '/home/alextran/zephyr_apps/blinky'
+    source-dir: '/home/alextran/zephyr_apps/blinky'
+  board:
+    name: 'nucleo_f446re'
+    path:
+     - '/home/alextran/zephyrproject/zephyr/boards/st/nucleo_f446re'
+    qualifiers: 'stm32f446xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/alextran/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/alextran/zephyrproject/zephyr/boards/st/nucleo_f446re/nucleo_f446re.dts'
+     - 'boards/nucleo_f446re.overlay'
+    include-dirs:
+     - '/home/alextran/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/alextran/zephyrproject/modules/hal/atmel/include'
+     - '/home/alextran/zephyrproject/modules/hal/bouffalolab/include'
+     - '/home/alextran/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - '/home/alextran/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/alextran/zephyrproject/modules/hal/microchip/include'
+     - '/home/alextran/zephyrproject/modules/hal/microchip/dts'
+     - '/home/alextran/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/alextran/zephyrproject/modules/hal/nxp/dts'
+     - '/home/alextran/zephyrproject/modules/hal/stm32/dts'
+     - '/home/alextran/zephyrproject/zephyr/include'
+     - '/home/alextran/zephyrproject/zephyr/include/zephyr'
+     - '/home/alextran/zephyrproject/zephyr/dts/common'
+     - '/home/alextran/zephyrproject/zephyr/dts/x86'
+     - '/home/alextran/zephyrproject/zephyr/dts/xtensa'
+     - '/home/alextran/zephyrproject/zephyr/dts/sparc'
+     - '/home/alextran/zephyrproject/zephyr/dts/riscv'
+     - '/home/alextran/zephyrproject/zephyr/dts/posix'
+     - '/home/alextran/zephyrproject/zephyr/dts/nios2'
+     - '/home/alextran/zephyrproject/zephyr/dts/arm64'
+     - '/home/alextran/zephyrproject/zephyr/dts/arm'
+     - '/home/alextran/zephyrproject/zephyr/dts/arc'
+     - '/home/alextran/zephyrproject/zephyr/dts'
+    user-files:
+     - 'boards/nucleo_f446re.overlay'
+  kconfig:
+    files:
+     - '/home/alextran/zephyrproject/zephyr/boards/st/nucleo_f446re/nucleo_f446re_defconfig'
+     - '/home/alextran/zephyr_apps/blinky/prj.conf'
+    user-files:
+     - '/home/alextran/zephyr_apps/blinky/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/alextran/zephyr-sdk-0.17.0'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: '/home/alextran/zephyrproject/zephyr'
+version: '0.1.0'
