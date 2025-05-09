@@ -41,4 +41,4 @@ empty_file.o: /home/alextran/zephyrproject/zephyr/misc/empty_file.c \
  /home/alextran/zephyrproject/zephyr/boards/st/nucleo_f446re/st_morpho_connector.dtsi \
  /home/alextran/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/st-morpho-header.h \
  /home/alextran/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
- boards/nucleo_f446re.overlay
+ /home/alextran/zephyr_apps/blinky/boards/nucleo_f446re.overlay

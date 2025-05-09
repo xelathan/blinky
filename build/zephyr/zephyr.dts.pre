@@ -2890,7 +2890,7 @@ arduino_spi: &spi1 {};
  };
 };
 # 0 "<command-line>" 2
-# 1 "./boards/nucleo_f446re.overlay" 1
+# 1 "/home/alextran/zephyr_apps/blinky/boards/nucleo_f446re.overlay" 1
 / {
     aliases {
         blink-led = &green_led_2;

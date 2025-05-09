@@ -9,7 +9,7 @@ events:
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       The target system is: Generic - 4.1.99 - arm
       The host system is: Linux - 6.12.10-76061203-generic - x86_64
@@ -23,7 +23,7 @@ events:
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /home/alextran/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
@@ -47,7 +47,7 @@ events:
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /home/alextran/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/alextran/zephyr_apps/blinky/build/CMakeFiles/4.0.1/CompilerIdC/CMakeCCompilerId.o
+        /home/alextran/zephyr_apps/blinky/build/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -73,7 +73,7 @@ events:
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: /home/alextran/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
@@ -97,7 +97,7 @@ events:
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /home/alextran/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
@@ -111,18 +111,18 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /home/alextran/zephyr_apps/blinky/build/CMakeFiles/4.0.1/CompilerIdCXX/CMakeCXXCompilerId.o
+        /home/alextran/zephyr_apps/blinky/build/CMakeFiles/4.0.2/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1230 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1271 (message)"
       - "/usr/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
       - "/home/alextran/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
       - "/home/alextran/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-zephyr-eabi-gcc (Zephyr SDK 0.17.0) 12.2.0

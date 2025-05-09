@@ -51,4 +51,5 @@
 "trusted-firmware-m":"/home/alextran/zephyrproject/modules/tee/tf-m/trusted-firmware-m":"${ZEPHYR_TRUSTED_FIRMWARE_M_CMAKE_DIR}"
 "uoscore-uedhoc":"/home/alextran/zephyrproject/modules/lib/uoscore-uedhoc":"${ZEPHYR_UOSCORE_UEDHOC_CMAKE_DIR}"
 "zcbor":"/home/alextran/zephyrproject/modules/lib/zcbor":"${ZEPHYR_ZCBOR_CMAKE_DIR}"
+"say_hello":"/home/alextran/zephyr_apps/blinky/lib/say_hello":"/home/alextran/zephyr_apps/blinky/lib/say_hello"
 "nrf_hw_models":"/home/alextran/zephyrproject/modules/bsim_hw_models/nrf_hw_models":"/home/alextran/zephyrproject/modules/bsim_hw_models/nrf_hw_models"

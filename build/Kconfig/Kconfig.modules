@@ -54,9 +54,11 @@ osource "/home/alextran/zephyrproject/modules/hal/espressif/zephyr/Kconfig"
 config ZEPHYR_HAL_ESPRESSIF_MODULE
 	bool
 	default y
+	select TAINT_BLOBS
 
 config ZEPHYR_HAL_ESPRESSIF_MODULE_BLOBS
 	bool
+	default y
 endmenu
 menu "hal_ethos_u (/home/alextran/zephyrproject/modules/hal/ethos_u)"
 osource "$(ZEPHYR_HAL_ETHOS_U_KCONFIG)"
@@ -283,6 +285,12 @@ endmenu
 menu "zcbor (/home/alextran/zephyrproject/modules/lib/zcbor)"
 osource "$(ZEPHYR_ZCBOR_KCONFIG)"
 config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu
+menu "say_hello (/home/alextran/zephyr_apps/blinky/lib/say_hello)"
+osource "/home/alextran/zephyr_apps/blinky/lib/say_hello/KConfig"
+config ZEPHYR_SAY_HELLO_MODULE
 	bool
 	default y
 endmenu

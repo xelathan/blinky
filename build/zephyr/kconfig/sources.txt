@@ -8,6 +8,7 @@
 /home/alextran/zephyr_apps/blinky/build/Kconfig/soc/Kconfig
 /home/alextran/zephyr_apps/blinky/build/Kconfig/soc/Kconfig.defconfig
 /home/alextran/zephyr_apps/blinky/build/Kconfig/soc/Kconfig.soc
+/home/alextran/zephyr_apps/blinky/lib/say_hello/KConfig
 /home/alextran/zephyrproject/modules/debug/percepio/DFM/kernelports/Zephyr/Kconfig
 /home/alextran/zephyrproject/modules/debug/percepio/DFM/kernelports/Zephyr/storageports/Filesystem/Kconfig
 /home/alextran/zephyrproject/modules/debug/percepio/DFM/kernelports/Zephyr/storageports/Flash/Kconfig

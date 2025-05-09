@@ -157,6 +157,9 @@ config ZEPHYR_UOSCORE_UEDHOC_MODULE
 config ZEPHYR_ZCBOR_MODULE
    bool
    default y
+config ZEPHYR_SAY_HELLO_MODULE
+   bool
+   default y
 config ZEPHYR_NRF_HW_MODELS_MODULE
    bool
    default y

@@ -2,7 +2,9 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/sys/printk.h>
 
+#ifdef CONFIG_SAY_HELLO
 #include "say_hello.h"
+#endif
 
 #define BLINK_DELAY 500
 #define BLINK_LED_NODE DT_ALIAS(blink_led)
@@ -19,7 +21,7 @@ int main(void) {
 
     ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
 
-    if (ret != 0) {
+    if (ret < 0) {
         return 0;
     }
 
@@ -30,7 +32,9 @@ int main(void) {
         }
 
         ledState = !ledState;
+#ifdef CONFIG_SAY_HELLO
         say_hello();
+#endif
         k_msleep(BLINK_DELAY);
     }
 }

@@ -1,10 +1,18 @@
 # say_hello lib
-target_sources(app PRIVATE src/say_hello.c)
+if (CONFIG_SAY_HELLO)
 
-target_include_directories(
-    app
-    PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
+    zephyr_include_directories(include)
 
-# more libs...
+    zephyr_library_sources(src/say_hello.c)
+
+endif()
+
+# target_sources(app PRIVATE src/say_hello.c)
+
+# target_include_directories(
+#     app
+#     PRIVATE
+#     ${CMAKE_CURRENT_SOURCE_DIR}/include
+# )
+
+# # more libs...

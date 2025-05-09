@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.c": "c",
-        "gpio.h": "c",
-        "printk.h": "c",
-        "kernel.h": "c"
-    }
-}

@@ -332,6 +332,8 @@
 /home/alextran/zephyr_apps/blinky/build/modules/uoscore-uedhoc/CMakeFiles/rebuild_cache.dir
 /home/alextran/zephyr_apps/blinky/build/modules/zcbor/CMakeFiles/edit_cache.dir
 /home/alextran/zephyr_apps/blinky/build/modules/zcbor/CMakeFiles/rebuild_cache.dir
+/home/alextran/zephyr_apps/blinky/build/modules/say_hello/CMakeFiles/edit_cache.dir
+/home/alextran/zephyr_apps/blinky/build/modules/say_hello/CMakeFiles/rebuild_cache.dir
 /home/alextran/zephyr_apps/blinky/build/modules/nrf_hw_models/CMakeFiles/edit_cache.dir
 /home/alextran/zephyr_apps/blinky/build/modules/nrf_hw_models/CMakeFiles/rebuild_cache.dir
 /home/alextran/zephyr_apps/blinky/build/zephyr/kernel/CMakeFiles/kernel.dir
@@ -352,5 +354,3 @@
 /home/alextran/zephyr_apps/blinky/build/zephyr/cmake/reports/CMakeFiles/footprint.dir
 /home/alextran/zephyr_apps/blinky/build/zephyr/cmake/reports/CMakeFiles/edit_cache.dir
 /home/alextran/zephyr_apps/blinky/build/zephyr/cmake/reports/CMakeFiles/rebuild_cache.dir
-/home/alextran/zephyr_apps/blinky/build/lib/say_hello/CMakeFiles/edit_cache.dir
-/home/alextran/zephyr_apps/blinky/build/lib/say_hello/CMakeFiles/rebuild_cache.dir

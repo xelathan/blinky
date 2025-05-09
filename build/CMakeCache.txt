@@ -325,7 +325,7 @@ DTC:FILEPATH=/home/alextran/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/
 // parameter. These settings will override the settings in the
 // board's .dts file. Multiple files may be listed, e.g. DTC_OVERLAY_FILE="dts1.overlay
 // dts2.overlay"
-DTC_OVERLAY_FILE:STRING=boards/nucleo_f446re.overlay
+DTC_OVERLAY_FILE:STRING=/home/alextran/zephyr_apps/blinky/boards/nucleo_f446re.overlay
 
 //Linker BFD compatibility (compiler reported)
 GNULD_LINKER_IS_BFD:BOOL=ON
@@ -360,9 +360,6 @@ Picolibc_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 Picolibc_SOURCE_DIR:STATIC=/home/alextran/zephyrproject/modules/lib/picolibc
 
-//Path to a program.
-Python3_EXECUTABLE:FILEPATH=/home/alextran/zephyrproject/.venv/bin/python
-
 //Path to the SoC directory.
 SOC_FULL_DIR:PATH=/home/alextran/zephyrproject/zephyr/soc/st/stm32
 
@@ -374,6 +371,9 @@ TOOLCHAIN_HAS_PICOLIBC:BOOL=ON
 
 //Zephyr toolchain root
 TOOLCHAIN_ROOT:STRING=/home/alextran/zephyrproject/zephyr
+
+//No help, variable specified on the command line.
+WEST_PYTHON:UNINITIALIZED=/home/alextran/zephyrproject/.venv/bin/python3
 
 //Zephyr base
 ZEPHYR_BASE:PATH=/home/alextran/zephyrproject/zephyr
@@ -454,7 +454,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=0
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
@@ -591,7 +591,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/home/alextran/zephyr-sdk-0.17.0/sysr
 //Details about finding GnuLd
 FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/home/alextran/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd][v2.38()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/alextran/zephyrproject/.venv/bin/python][found components: Interpreter ][v3.10.12(3.10)]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/alextran/zephyrproject/.venv/bin/python3][found components: Interpreter ][v3.10.12(3.10)]
 //Zephyr hardware model version
 HWM:INTERNAL=v2
 //Zephyr hardware model
@@ -601,15 +601,15 @@ KERNEL_META_PATH:INTERNAL=/home/alextran/zephyr_apps/blinky/build/zephyr/zephyr.
 SOC_DIRECTORIES:INTERNAL=/home/alextran/zephyrproject/zephyr/soc/st/stm32
 SOC_LINKER_SCRIPT:INTERNAL=/home/alextran/zephyrproject/zephyr/include/zephyr/arch/arm/cortex_m/scripts/linker.ld
 //West
-WEST:INTERNAL=/home/alextran/zephyrproject/.venv/bin/python;-m;west
+WEST:INTERNAL=/home/alextran/zephyrproject/.venv/bin/python3;-m;west
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/alextran/zephyrproject/.venv/bin/python
+_Python3_EXECUTABLE:INTERNAL=/home/alextran/zephyrproject/.venv/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;<none>;cpython-310-x86_64-linux-gnu.so;abi3;/usr/lib/python3.10;/home/alextran/zephyrproject/.venv/lib/python3.10;/home/alextran/zephyrproject/.venv/lib/python3.10/site-packages;/home/alextran/zephyrproject/.venv/lib/python3.10/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=c305db28aa57c95d586071d516a81050
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=7eb51b22c7e799aace9016780a66e388
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
