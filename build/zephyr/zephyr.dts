@@ -18,7 +18,7 @@
 		led0 = &green_led_2;
 		pwm-led0 = &green_pwm_led;
 		sw0 = &user_button;
-		blink-led = &green_led_2;
+		blink-led = &led0;
 	};
 	soc {
 		#address-cells = < 0x1 >;
@@ -940,6 +940,10 @@
 		green_led_2: led_2 {
 			gpios = < &gpioa 0x5 0x0 >;
 			label = "User LD2";
+		};
+		led0: d13 {
+			gpios = < &gpioa 0x5 0x0 >;
+			label = "BLINK_LED";
 		};
 	};
 	pwmleds {

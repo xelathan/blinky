@@ -2893,14 +2893,14 @@ arduino_spi: &spi1 {};
 # 1 "/home/alextran/zephyr_apps/blinky/boards/nucleo_f446re.overlay" 1
 / {
     aliases {
-        blink-led = &green_led_2;
+        blink-led = &led0;
     };
 
     leds {
         compatible = "gpio-leds";
-        green_led_2: led_2 {
+        led0: d13 {
             gpios = <&gpioa 5 (0 << 0)>;
-   label = "User LD2";
+   label = "BLINK_LED";
         };
     };
 };

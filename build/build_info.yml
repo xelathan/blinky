@@ -54,6 +54,6 @@ cmake:
     zephyr-base: '/home/alextran/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: '/home/alextran/zephyrproject/.venv/bin/west build -b nucleo_f446re -p always'
+  command: '/home/alextran/zephyrproject/.venv/bin/west build -p always -b nucleo_f446re'
   topdir: '/home/alextran/zephyrproject'
   version: '1.3.0'
